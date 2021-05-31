@@ -1,0 +1,21 @@
+$increment-color:rgb(242, 255, 0);
+$decrement-color:rgb(55, 0, 255);
+$reset-color:rgb(255, 0, 0);
+
+@mixin generic-button ($color) {
+    width: 100px;
+    height: 50px;
+    background-color: $color;
+}
+
+button.increment {
+   @include generic-button($increment-color)
+}
+
+button.decrement {
+   @include generic-button($decrement-color)
+}
+
+button.reset {
+   @include generic-button($reset-color)
+}

@@ -1,0 +1,19 @@
+{
+  "name": "lab02",
+  "version": "1.0.0",
+  "description": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:vladutmargineanu/pw2021-margineanu-vladut.git"
+  },
+  "author": "Vladut Margineanu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  }
+}

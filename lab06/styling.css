@@ -1,0 +1,55 @@
+#container {
+  background-color: lightblue;
+  font-family: 'Roboto';
+  width: 800px;
+}
+
+#header {
+  background-color: green;
+  text-align: center;
+}
+
+#content {
+  background-color: orange;
+  overflow: auto;
+}
+
+#main {
+  background-color: blue;
+  width: 600px;
+  float: left;
+  color: white;
+}
+
+#nav {
+  background-color: purple;
+  width: 180px;
+  float: left;
+  margin-left: 10px;
+}
+
+#form {
+  background-color: gray;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+}
+
+#main p {
+    font-family: 'Arial';
+}
+
+#nav tr:nth-child(odd) {
+    background-color: green;
+}
+
+#nav tr:nth-child(even) {
+    background-color: grey;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}

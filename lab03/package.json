@@ -1,0 +1,23 @@
+{
+  "name": "lab03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/vladutmargineanu/pw2021-margineanu-vladut.git"
+  },
+  "author": "Vladut Margineanu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/vladutmargineanu/pw2021-margineanu-vladut/issues"
+  },
+  "homepage": "https://gitlab.com/vladutmargineanu/pw2021-margineanu-vladut#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

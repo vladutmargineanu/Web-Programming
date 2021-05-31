@@ -1,0 +1,24 @@
+{
+	"info": {
+		"_postman_id": "13bb5cf1-c788-4cfe-8070-38d03adc8c9e",
+		"name": "PWeb - lab02",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PWeb - lab02",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		}
+	]
+}
